@@ -8,7 +8,7 @@ public class FileSortApplication {
     public static void main(String[] args) {
         try {
 
-            String filePath = "src/test/resources/TestInput.txt";
+            String filePath = "src/test/resources/input/random.txt";
 
             System.out.println("Starting FileSortApplication for: " + filePath);
 
