@@ -8,9 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources/input" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources/output" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources/temp" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources/temp/final" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources/final" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

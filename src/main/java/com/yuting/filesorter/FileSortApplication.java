@@ -11,9 +11,9 @@ public class FileSortApplication {
             System.out.println("Starting FileSortApplication for: " + filePath);
 
             List<File> listOfFiles = ReadSortMerge.splitAndSort(filePath, 1,
-                    "src/test/resources/output", new DescendingComparator());
+                    "src/test/resources/temp");
 
-            ReadSortMerge.merge(listOfFiles, "", new DescendingComparator());
+            ReadSortMerge.merge(listOfFiles, "src/test/resources/final/final.txt");
 
             System.out.println("Finished FileSortApplication");
 
