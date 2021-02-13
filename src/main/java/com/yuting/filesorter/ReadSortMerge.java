@@ -29,12 +29,6 @@ public class ReadSortMerge {
         long chunkByteSize = raf.length() / noOfReads;
         int bufferSize = 8 * 1024;
 
-        System.out.printf("File Size in bytes: %,d bytes%n", raf.length());
-        System.out.printf("maxBytes: %,d bytes%n", maxBytes);
-        System.out.printf("noOfReads: %d%n", noOfReads);
-        System.out.printf("chunkByteSize: %,d bytes%n", chunkByteSize);
-        System.out.printf("remainingReadSize: %,d bytes%n", remainingReadSize);
-
         for (long i = 1; i <= noOfReads; i++) {
             File tempFile = newFile(tempLocation, i);
             BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(tempFile));
